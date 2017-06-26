@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidedImageView">
+        <attr name="siv_rate" format="float"/>
+        <attr name="siv_source" format="reference"/>
+        <attr name="siv_axis" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

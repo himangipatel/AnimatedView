@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <com.animatedview.customviews.SlideImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:siv_source="@drawable/main_bg"
+        app:siv_rate="1.0"
+        app:siv_axis="horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:alpha="0.4"/>
+
+</FrameLayout>
