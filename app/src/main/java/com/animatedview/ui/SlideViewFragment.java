@@ -15,15 +15,15 @@ import com.animatedview.R;
  * Created by Himangi on 26/6/17
  */
 
-public class SlidingViewPagerFragment extends Fragment {
+public class SlideViewFragment extends Fragment {
 
 
-    public static SlidingViewPagerFragment newInstance(int page, Integer image) {
-        SlidingViewPagerFragment slidingViewPagerFragment = new SlidingViewPagerFragment();
+    public static SlideViewFragment newInstance(int page, Integer image) {
+        SlideViewFragment slideViewFragment = new SlideViewFragment();
         Bundle args = new Bundle();
         args.putInt("image",image);
-        slidingViewPagerFragment.setArguments(args);
-        return slidingViewPagerFragment;
+        slideViewFragment.setArguments(args);
+        return slideViewFragment;
     }
 
 

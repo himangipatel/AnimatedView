@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.animatedview.ui.SlidingViewPagerFragment;
+import com.animatedview.ui.SlideViewFragment;
 
 public class CustomAdapter extends FragmentPagerAdapter {
 
@@ -22,7 +22,7 @@ public class CustomAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        return SlidingViewPagerFragment.newInstance(position, imagesArray[position]);
+        return SlideViewFragment.newInstance(position, imagesArray[position]);
     }
 
     @Override

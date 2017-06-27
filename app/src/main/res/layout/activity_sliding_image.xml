@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.SlidingImageActivity">
 
     <com.animatedview.customviews.SlideImageView
         android:layout_width="wrap_content"
